@@ -5,7 +5,7 @@
 import os
 import gradio as gr
 
-from brain_of_the_elaRech import encode_image, analysis_image_with_query
+from brain_of_the_elaMath import encode_image, analysis_image_with_query
 from voice_of_the_user import transcribe_with_groq
 from voice_of_the_math_instructor import text_to_speech_with_elevenlabs
 
