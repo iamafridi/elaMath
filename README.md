@@ -51,7 +51,7 @@ ElaMath/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/iamafridi/elaMath.git
 cd elaMath
 
@@ -59,7 +59,7 @@ cd elaMath
 
 Create a `.env` file and add the following:
 
-```env
+env
 GROQ_API_KEY=your_groq_api_key
 ELEVENLABS_API_KEY=your_elevenlabs_api_key
 
