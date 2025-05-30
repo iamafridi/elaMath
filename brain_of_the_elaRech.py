@@ -13,7 +13,7 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 # Function to analyze image with a query
-def analysis_image_with_query(query, encoded_image, model="deepseek-r1-distill-llama-70b"):
+def analysis_image_with_query(query, encoded_image, model="meta-llama/llama-4-maverick-17b-128e-instruct"):
     client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
     messages = [
